@@ -11,6 +11,7 @@ resource "aws_subnet" "pub-subnet" {
 
   tags = {
     Name = "public-subnettt"
+    Team = "DEV"
   }
 }
 
